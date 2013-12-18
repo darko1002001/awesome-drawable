@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.aranea-apps.android.libs</groupId>
     <artifactId>awesome-drawable-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
   </parent>
 
   <artifactId>awesome-drawable</artifactId>
