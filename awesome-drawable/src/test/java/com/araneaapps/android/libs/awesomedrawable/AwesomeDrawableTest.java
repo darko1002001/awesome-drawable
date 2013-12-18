@@ -24,9 +24,6 @@
 
 package com.araneaapps.android.libs.awesomedrawable;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
@@ -34,11 +31,4 @@ import org.robolectric.annotation.Config;
 @RunWith(RobolectricTestRunner.class)
 @Config(manifest = Config.NONE)
 public class AwesomeDrawableTest {
-  @Before @After // Clear out cache of injectors and resetters before and after each test.
-  public void resetViewsCache() {
-  }
-
-  @Test public void zeroInjectionsInjectDoesNotThrowException() {
-  }
-
 }
