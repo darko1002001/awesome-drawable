@@ -1,5 +1,7 @@
 Awesome Drawable
 ============
+Based on the TextDrawable project here: 
+https://github.com/devunwired/textdrawable
 
 Download
 --------
