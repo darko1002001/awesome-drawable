@@ -24,11 +24,21 @@
 
 package com.araneaapps.android.libs.awesomedrawable;
 
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
+import static org.fest.assertions.api.Assertions.assertThat;
+
 @RunWith(RobolectricTestRunner.class)
 @Config(manifest = Config.NONE)
 public class AwesomeDrawableTest {
+  @Before @After // Clear out cache of injectors and resetters before and after each test.
+  @Test public void dummyMethodTest() {
+    assertThat(true).isEqualTo(true);
+  }
+
 }
