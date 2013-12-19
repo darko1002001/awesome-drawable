@@ -3,6 +3,10 @@ Awesome Drawable
 Based on the TextDrawable project here: 
 https://github.com/devunwired/textdrawable
 
+Usage: 
+
+You need to add the font to assets/ or you will get an exception when instantiating the AwesomeDrawable class.
+
 Download
 --------
 
